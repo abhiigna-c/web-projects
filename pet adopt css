@@ -1,0 +1,30 @@
+.card{
+ background-color: azure;
+ height: 600px;
+ width: 450px;
+ border: 2px solid black;
+ padding: 20px;
+ margin: 10px;
+ border-radius: 30px;
+ 
+}
+img{
+  width: 450px;
+  border-radius: 28px;
+  
+}
+h3{
+  text-align: center;
+}
+h3+p{
+ line-height: 30px;
+}
+#pets{
+  display: flex;
+  justify-content: space-evenly;
+}
+@media (max-width:500px){
+  #pets{
+    flex-wrap: wrap;
+  }
+}
